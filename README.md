@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/920e2590-0d8e-42bb-95a7-74b3fcd0d926)This service demonstrates how we can integrate chat gpt with Java backend service and interact with chat gpt 
+This service demonstrates how we can integrate chat gpt with Java backend service and interact with chat gpt 
 
 ## Project Overview
 * This is REST service developed using spring boot that interacts with chat gpt.
