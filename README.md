@@ -13,8 +13,8 @@
 * Prepare the request for chat gpt. Chat gpt accepts API key as bearer auth in header. Also the request body contains -
   ```
     {
-      "model": 
-      "temperature":
+      "model": "gpt-3.5-turbo",
+      "temperature": 0.5,
       "messages": [
 	      {
           "role": "user",
@@ -24,4 +24,7 @@
     }
   ```
 
-  
+### Understanding chat gpt request
+* Model - model is a program that is trained over a set of data. OpenAI supports multiple models that provides different capabilities and pricing models
+* Temperature - control the randomness of the output. Higher the temperature, more random output would be.
+* Role - Specific roles to guide the model's response. System, user and assistant are the typical roles
